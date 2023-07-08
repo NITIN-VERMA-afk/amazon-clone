@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border: border-box;
+  list-style: none;
+}
+.navbar {
+  height: 60px;
+  background-color: #34495e;
+  color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  background-image: url(images/amazon_logo.png);
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
+.nav-logo {
+  height: 50px;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+.add-first {
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+.add-sec {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.nav-search:hover {
+  border: 2px solid black;
+}
+.search-select {
+  background-color: #f3f3f3;
+ 
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 100px;
+  
+}
+.search-select focus{
+  min-width: 150px;
+  width: auto;
+}
+.search-select option{
+  text-align: start;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: orange;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #f0f0f0;
+}
+/* box-4 */
+span {
+  font-size: 0.7rem;
+}
+.nav-sec {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* cart css */
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 0.85 rem;
+  font-weight: 700;
+  display: flex;
+}
+/* pannel css start here  */
+.pannel {
+  height: 80px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  
+}
+.pannel-ops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.pannel-ops li {
+  display: inline;
+  margin-left: 10px;
+}
+.pannel-deals {
+  font-size: 0.9rem;
+}
+/* hero section here  */
+.hero {
+  background-image: url(images/hero_image.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.hero-mess {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin-bottom: 25px;
+}
+.hero-mess a {
+  color: #007185;
+}
+/* shop css */
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box {
+  border: solid lightgray 3px;
+  height: 400px;
+  width: 23%;
+  padding: 20px 0px 15px;
+}
+.box-content {
+  margin-left: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.box-content p {
+  color: #007185;
+}
+.box-img {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1 rem;
+}
+
+.footer {
+  margin-top: 50px;
+}
+.footer-pannel-1 {
+  background-color: #374758;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+}
+.footer-pannel-2 {
+  background-color: #222f3d;
+  color: white;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-pannel-2 ul {
+  margin-top: 20px;
+}
+.pannel-3 {
+  background-color: #222f3d;
+  content: white;
+  border-top: 2px solid black;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pannel-4 {
+  background-color: #34495e;
+  color: white;
+  height: 100px;
+  text-align: center;
+}
+.pannel-4 a{
+    color: white;
+}
+.pages {
+  font-size: 0.7rem;
+  color: white;
+
+  padding-top: 25px;
+}
+.copyright {
+  padding-top: 5px;
+  font-size: 0.7rem;
+}
+.shop-section p{
+    margin-top: 20px;
+}
+.shop-section-2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  margin-top: 10px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.sign-in-foot{
+  margin-left: 40%;
+}
+.sign-in-foot a{
+  color: blue;
+}
+.sign-in-foot button{
+  border-radius: 10% solid black;
+  cursor: pointer;
+  text-align: center;
+  background-color: orange;
+  width: fit-content;
+  padding: 10px 80px;
+  margin-left: 20px;
+
+}
+.book-pannel{
+  height: 300px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-inline:contain ;
+}
+.pre-button{
+ left: 0;
+ 
+
+
+}
+.next-button{
+  right: 0;
+  transform: rotate(180deg);
+ 
+
+}
+.next-button {
+  
+
+  
+}
+.pre-button {
+  
+}
+
+.book-1
+{
+
+}
+.pannel-2nd{
+  margin-top: 10px;
+}
+.sidenav{
+  background-color: red;
+
+  height: 100vh;
+  width: 40vh;
+  
+}
+.sidenav-signin{
+  background-color: #007185;
+ 
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+
+
+
+}
